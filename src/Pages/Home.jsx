@@ -1,11 +1,13 @@
 import React from 'react'
+import Base from '../Components/Base'
 
 function Home() {
   return (
+    <Base>
     <div>
-        <h1>this is home page</h1>
-        <p>Welcome to home page</p>
+      <h1>This is home page</h1>
     </div>
+    </Base>
   )
 }
 
